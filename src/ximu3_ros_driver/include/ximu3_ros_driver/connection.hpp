@@ -82,8 +82,8 @@ class connection
                 case 2: {inputName.append(DeviceCL2); break;}
                 default: 
                 {
-                    std::cout << "Incorrect device number" << std::endl;
-                    return;
+                    std::cout << "Incorrect device number will connect to the first device found" << std::endl;
+                    //return;
                     break;
                 } 
             }
