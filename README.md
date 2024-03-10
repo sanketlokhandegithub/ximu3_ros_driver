@@ -11,7 +11,7 @@ Usage:
 3. catkin init
 4. cd src
 5. git clone https://github.com/sanketlokhandegithub/ximu3_ros_driver.git
-6. cd ximu3_ros_driver
+6. cd ximu3_ros_driver/src/ximu3_ros_driver/
 7. mkdir lib && cd lib
 8. wget https://github.com/xioTechnologies/x-IMU3-Software/releases/latest/download/x-IMU3-API-x86_64-unknown-linux-gnu.zip
 9. unzip x-IMU3-API-x86_64-unknown-linux-gnu.zip
