@@ -3,6 +3,8 @@
 This is a ROS driver for connecting multiple XIMU3 devices via TCP or UDP connection and stream the IMU data to the ROS server
 
 Usage:
+
+
 0. Open a terminal and execute the following commands
 1. mkdir -p ~/catkin_ws/src
 2. cd ~/catkin_ws
