@@ -72,6 +72,7 @@ class connection
             if(messages.length == 0) 
             {
                 std::cout << "No connections available" << std::endl;
+                ximu3::XIMU3_network_announcement_free(networkAnnouncement);
                 return;
             }
             std::string inputName = "";
