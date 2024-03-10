@@ -24,5 +24,5 @@ Usage:
 17. You should see your device flash the LED a few times before it starts to transmit data to the ros server
 18. open a new terminal and execute cd ~/catkin_ws
 19. source devel/setup.bash
-20. rostopic list (You should see the list of topics that are 
-21. rostopic echo /sensor0/accel should display your transmitted data
+20. rostopic list (You should see the list of topics that are broadcasting)
+21. rostopic echo /sensor0/accel should display your transmitted accelerometer data
