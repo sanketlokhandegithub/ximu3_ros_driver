@@ -2,6 +2,7 @@
 
 This is a ROS driver for connecting multiple XIMU3 devices via TCP or UDP connection and stream the IMU data to the ROS server
 
+
 Usage:
 
 
@@ -14,8 +15,8 @@ Usage:
 6. cd ximu3_ros_driver/src/ximu3_ros_driver/
 7. mkdir lib && cd lib
 8. wget https://github.com/xioTechnologies/x-IMU3-Software/releases/latest/download/x-IMU3-API-x86_64-unknown-linux-gnu.zip
-9. unzip x-IMU3-API-x86_64-unknown-linux-gnu.zip
-10. roscore (This should start your ros server)
+9. unzip x-IMU3-API-x86_64-unknown-linux-gnu.zip (Note: before you start compiling update the file ximu3_ros_driver/src/ximu3_ros_driver/include/ximu3_ros_driver/connection.hpp with your device serial number at line 25 onwards. Add more if you wish.)
+10. roscore (This should start your ros server) 
 11. open a new terminal and execute the following
 12. cd ~/catkin_ws
 13. catkin_make
