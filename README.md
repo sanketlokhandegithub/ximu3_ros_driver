@@ -21,7 +21,7 @@ Usage:
 12. cd ~/catkin_ws
 13. catkin_make
 14. source devel/setup.bash
-15. rosrun ximu3_ros_driver ximu3_node 0 (If you replace 0 with 1 or 2, it will connect to the other XIMU3 devices on the wifi network )
+15. rosrun ximu3_ros_driver ximu3_node 0 (Open another terminal and replace 0 with 1, 2 etc., it will connect to the other XIMU3 devices you added in the connection.hpp with the ROS network )
 17. You should see your device flash the LED a few times before it starts to transmit data to the ros server
 18. open a new terminal and execute cd ~/catkin_ws
 19. source devel/setup.bash
